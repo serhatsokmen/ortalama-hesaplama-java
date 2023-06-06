@@ -25,14 +25,15 @@ public class Main {
 
         System.out.println("muzik notunu giriniz : ");
         muzik = scan.nextInt();
+if(mat <= 100 && mat>=0 && fizik <= 100 && fizik >= 0 && kimya <= 100 && kimya >= 0 && turkce <= 100 && turkce >= 0 && tarih <= 100 && tarih >= 0 && muzik <= 100 && muzik >= 0) {
 
         double ortalama = (mat+fizik+kimya+turkce+tarih+muzik)/6;
         System.out.println("not ortalamaniz : "+ortalama);
 
-        if(ortalama >= 60)
+        if(ortalama >= 55)
             System.out.println("Gectiniz, tebrikler.");
         else
             System.out.println("maalesef kaldiniz.");
-
+        }
     }
 }
